@@ -23,6 +23,20 @@
 
 }
 
+.grid-item {
+    background-color: aqua;
+    border: solid 1px black;
+    }
+
+.grid-container1{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    justify-items: center;
+    align-items: center;
+    height: 500px;
+}
+
 .box{
     border: solid 1px black;
     margin: 2px;
