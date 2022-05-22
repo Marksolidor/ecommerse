@@ -16,6 +16,7 @@
 
 .grid-container{
     display: grid;
+    grid-template-columns: auto 85%;
     grid-template-areas: 
     'header header' 
     'sidebar main' 
