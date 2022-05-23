@@ -16,6 +16,14 @@
   grid-area: footer;
 }
 
+/**navbar**/
+.header{
+padding: 1%;
+background-color: black;
+text-align: center;
+min-width: 100%;
+}
+
 /**SIDEBAR**/
 .categorie{
     text-align: center;
