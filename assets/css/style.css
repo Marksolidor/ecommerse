@@ -21,10 +21,11 @@
     'header header' 
     'sidebar main' 
     'footer footer';
-
 }
 
 .grid-item {
+    display: flex;
+    flex-direction: column;
     background-color: aqua;
     border: solid 1px black;
     }
@@ -47,3 +48,12 @@
     border: solid 1px black;
     margin: 2px;
 }
+
+.boton {
+    border: 1px solid #2e518b; /*anchura, estilo y color borde*/
+    padding: 10px; /*espacio alrededor texto*/
+    background-color: #2e518b; /*color botón*/
+    color: #ffffff; /*color texto*/
+    text-decoration: none; /*decoración texto*/
+    font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+    }
