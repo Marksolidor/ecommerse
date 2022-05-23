@@ -32,6 +32,12 @@ a{
     text-decoration: none;
 }
 
+.flex-container P{
+    margin: 0;
+    padding-bottom: 3px;
+}
+
+/**MAIN CONTENT**/
 .grid-container {
   display: grid;
   grid-template-columns: auto 85%;
