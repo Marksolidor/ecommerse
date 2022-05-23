@@ -29,6 +29,10 @@
     border: solid 1px black;
     }
 
+    .grid-item img{
+        max-width: 100%;
+    }
+
 .grid-container1{
     display: grid;
     grid-template-columns: auto auto auto;
