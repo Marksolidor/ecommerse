@@ -1,59 +1,68 @@
-.header{
-    grid-area: header;
+.header {
+  grid-area: header;
 }
 
-.sidebar{
-    grid-area: sidebar;
+.sidebar {
+  grid-area: sidebar;
 }
 
-.main{
-    grid-area: main;
+.main {
+  grid-area: main;
 }
 
-.footer{
-    grid-area: footer;
+.footer {
+  grid-area: footer;
 }
 
-.grid-container{
-    display: grid;
-    grid-template-columns: auto 85%;
-    grid-template-areas: 
-    'header header' 
-    'sidebar main' 
-    'footer footer';
+.grid-container {
+  display: grid;
+  grid-template-columns: auto 85%;
+  grid-template-areas:
+    "header header"
+    "sidebar main"
+    "footer footer";
 }
 
 .grid-item {
-    display: flex;
-    flex-direction: column;
-    background-color: aqua;
-    border: solid 1px black;
-    }
-
-    .grid-item img{
-        max-width: 100%;
-
-    }
-
-.grid-container1{
-    display: grid;
-    grid-template-columns: auto auto auto;
-    gap: 10px;
-    justify-items: center;
-    align-items: center;
-    max-height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: aqua;
+  border: solid 1px black;
+  place-items: center;
 }
 
-.box{
-    border: solid 1px black;
-    margin: 2px;
+.grid-item img {
+  max-width: 100%;
 }
 
-.boton {
-    border: 1px solid #2e518b; /*anchura, estilo y color borde*/
-    padding: 10px; /*espacio alrededor texto*/
-    background-color: #2e518b; /*color botón*/
-    color: #ffffff; /*color texto*/
-    text-decoration: none; /*decoración texto*/
-    font-family: 'Helvetica', sans-serif; /*tipografía texto*/
-    }
+.grid-container1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+  max-height: 100%;
+}
+
+.box {
+  border: solid 1px black;
+  margin: 2px;
+}
+
+button {
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.btn{
+    width: 100%;
+    margin: 0;
+}
+
+button:hover, a:hover {
+    opacity: 0.7;
+  }
