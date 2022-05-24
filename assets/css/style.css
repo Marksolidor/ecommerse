@@ -55,6 +55,7 @@ a{
 /**MAIN CONTENT**/
 .grid-container {
   display: grid;
+  background-color: #EFEFEF;
   grid-template-columns: auto 85%;
   grid-template-areas:
     "header header"
@@ -65,9 +66,9 @@ a{
 .grid-item {
   display: flex;
   flex-direction: column;
-  background-color: #EFEFEF;
-  border: solid 1px black;
+  background-color: #112B3C;
   place-items: center;
+  color: #EFEFEF;
 }
 
 .grid-item img {
