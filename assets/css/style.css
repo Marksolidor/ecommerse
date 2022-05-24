@@ -98,3 +98,21 @@ button {
 button:hover, a:hover {
     opacity: 0.7;
   }
+
+  /**FOOTER**/
+.social{
+    text-align: center;
+    padding: 1%;
+}
+
+  .social img{
+      width: 3%;
+  }
+
+.footer-container{
+    text-align: center;
+}
+
+  .footer-container a{
+      padding: 1%;
+  }
