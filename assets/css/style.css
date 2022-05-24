@@ -19,12 +19,16 @@
 /**navbar**/
 .header{
 padding: 1%;
-background-color: black;
+background-color: #112B3C;
 text-align: center;
 min-width: 100%;
 }
 
 /**SIDEBAR**/
+.sidebar{
+    background-color: #EFEFEF;
+}
+
 .categorie{
     text-align: center;
 }
@@ -58,7 +62,7 @@ a{
 .grid-item {
   display: flex;
   flex-direction: column;
-  background-color: aqua;
+  background-color: #EFEFEF;
   border: solid 1px black;
   place-items: center;
 }
@@ -83,7 +87,7 @@ button {
   display: inline-block;
   padding: 8px;
   color: white;
-  background-color: #000;
+  background-color: #F66B0E;
   text-align: center;
   cursor: pointer;
   width: 100%;
@@ -100,6 +104,10 @@ button:hover, a:hover {
   }
 
   /**FOOTER**/
+.footer{
+    background-color: #EFEFEF;
+}
+
 .social{
     text-align: center;
     padding: 1%;
