@@ -1,3 +1,6 @@
+*{
+    margin: 0;
+}
 
 /**LAYOUT**/
 .header {
@@ -79,12 +82,10 @@ a{
 }
 
 .box {
-  border: solid 1px black;
   margin: 2px;
 }
 
 button {
-  display: inline-block;
   padding: 8px;
   color: white;
   background-color: #F66B0E;
