@@ -1,5 +1,6 @@
 *{
     margin: 0;
+    font-family: 'Times New Roman', Times, serif
 }
 
 /**LAYOUT**/
@@ -32,6 +33,11 @@ min-width: 100%;
     background-color: #EFEFEF;
 }
 
+h5{
+    padding: 5%;
+    font-size: larger;
+}
+
 .categorie{
     text-align: center;
 }
@@ -43,13 +49,19 @@ min-width: 100%;
     padding-left: 10%;
 }
 
-a{
-    text-decoration: none;
+b{
+    color: black;
 }
 
-.flex-container P{
+a{
+    text-decoration: none;
+    color: grey;
+}
+
+.flex-container p{
     margin: 0;
-    padding-bottom: 3px;
+    padding-bottom: 4%;
+    font-size: large;
 }
 
 /**MAIN CONTENT**/
@@ -73,6 +85,11 @@ a{
 
 .grid-item img {
   max-width: 100%;
+  padding-bottom: 2%;
+}
+
+h2{
+    margin-bottom: 2%;
 }
 
 .grid-container1 {
@@ -88,6 +105,7 @@ a{
 
 button {
   padding: 8px;
+  margin-top: 2%;
   color: white;
   background-color: #F66B0E;
   text-align: center;
@@ -117,6 +135,7 @@ button:hover, a:hover {
 
   .social img{
       width: 3%;
+      padding: 0.5%;
   }
 
 .footer-container{
@@ -125,4 +144,8 @@ button:hover, a:hover {
 
   .footer-container a{
       padding: 1%;
+  }
+
+  .footer-container p{
+      margin-top: 1%;
   }
