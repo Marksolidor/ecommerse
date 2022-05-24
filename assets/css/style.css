@@ -108,3 +108,11 @@ button:hover, a:hover {
   .social img{
       width: 3%;
   }
+
+.footer-container{
+    text-align: center;
+}
+
+  .footer-container a{
+      padding: 1%;
+  }
