@@ -28,6 +28,10 @@ text-align: center;
 min-width: 100vh;
 }
 
+.header img{
+    width: 10%;
+}
+
 /**SIDEBAR**/
 .sidebar{
     background-color: #EFEFEF;
