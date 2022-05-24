@@ -25,7 +25,7 @@
 padding: 1%;
 background-color: #112B3C;
 text-align: center;
-min-width: 100%;
+min-width: 100vh;
 }
 
 /**SIDEBAR**/
