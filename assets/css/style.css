@@ -1,6 +1,6 @@
-*{
-    margin: 0;
-    font-family: 'Times New Roman', Times, serif
+* {
+  margin: 0;
+  font-family: "Times New Roman", Times, serif;
 }
 
 /**LAYOUT**/
@@ -21,59 +21,59 @@
 }
 
 /**navbar**/
-.header{
-padding: 1%;
-background-color: #112B3C;
-text-align: center;
-min-width: 100vh;
+.header {
+  padding: 1%;
+  background-color: #112b3c;
+  text-align: center;
+  min-width: 100vh;
 }
 
-.header img{
-    width: 10%;
+.header img {
+  width: 10%;
 }
 
 /**SIDEBAR**/
-.sidebar{
-    background-color: #EFEFEF;
-    position: sticky;
-    top: 0;
+.sidebar {
+  background-color: #efefef;
+  position: sticky;
+  top: 0;
 }
 
-h5{
-    padding: 5%;
-    font-size: larger;
+h5 {
+  padding: 5%;
+  font-size: larger;
 }
 
-.categorie{
-    text-align: center;
+.categorie {
+  text-align: center;
 }
 
-.flex-container{
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
-    padding-left: 10%;
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  padding-left: 10%;
 }
 
-b{
-    color: black;
+b {
+  color: black;
 }
 
-a{
-    text-decoration: none;
-    color: grey;
+a {
+  text-decoration: none;
+  color: grey;
 }
 
-.flex-container p{
-    margin: 0;
-    padding-bottom: 4%;
-    font-size: large;
+.flex-container p {
+  margin: 0;
+  padding-bottom: 4%;
+  font-size: large;
 }
 
 /**MAIN CONTENT**/
 .grid-container {
   display: grid;
-  background-color: #EFEFEF;
+  background-color: #efefef;
   grid-template-columns: auto 85%;
   grid-template-areas:
     "header header"
@@ -84,9 +84,9 @@ a{
 .grid-item {
   display: flex;
   flex-direction: column;
-  background-color: #112B3C;
+  background-color: #112b3c;
   place-items: center;
-  color: #EFEFEF;
+  color: #efefef;
 }
 
 .grid-item img {
@@ -94,8 +94,8 @@ a{
   padding-bottom: 2%;
 }
 
-h2{
-    margin-bottom: 2%;
+h2 {
+  margin-bottom: 2%;
 }
 
 .grid-container1 {
@@ -113,45 +113,46 @@ button {
   padding: 8px;
   margin-top: 2%;
   color: white;
-  background-color: #F66B0E;
+  background-color: #f66b0e;
   text-align: center;
   cursor: pointer;
   width: 100%;
   font-size: 18px;
 }
 
-.btn{
-    width: 100%;
-    margin: 0;
+.btn {
+  width: 100%;
+  margin: 0;
 }
 
-button:hover, a:hover {
-    opacity: 0.7;
-  }
-
-  /**FOOTER**/
-.footer{
-    background-color: #EFEFEF;
+button:hover,
+a:hover {
+  opacity: 0.7;
 }
 
-.social{
-    text-align: center;
-    padding: 1%;
+/**FOOTER**/
+.footer {
+  background-color: #efefef;
 }
 
-  .social img{
-      width: 3%;
-      padding: 0.5%;
-  }
-
-.footer-container{
-    text-align: center;
+.social {
+  text-align: center;
+  padding: 1%;
 }
 
-  .footer-container a{
-      padding: 1%;
-  }
+.social img {
+  width: 3%;
+  padding: 0.5%;
+}
 
-  .footer-container p{
-      margin-top: 1%;
-  }
+.footer-container {
+  text-align: center;
+}
+
+.footer-container a {
+  padding: 1%;
+}
+
+.footer-container p {
+  margin-top: 1%;
+}
