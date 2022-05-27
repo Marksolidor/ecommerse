@@ -1,3 +1,7 @@
+* {
+  margin: 0;
+  font-family: "Times New Roman", Times, serif;
+}
 
 /**LAYOUT**/
 .header {
@@ -17,37 +21,59 @@
 }
 
 /**navbar**/
-.header{
-padding: 1%;
-background-color: black;
-text-align: center;
-min-width: 100%;
+.header {
+  padding: 1%;
+  background-color: #112b3c;
+  text-align: center;
+  min-width: 100vh;
+}
+
+.header img {
+  width: 10%;
 }
 
 /**SIDEBAR**/
-.categorie{
-    text-align: center;
+.sidebar {
+  background-color: #efefef;
+  position: sticky;
+  top: 0;
 }
 
-.flex-container{
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
-    padding-left: 10%;
+h5 {
+  padding: 5%;
+  font-size: larger;
 }
 
-a{
-    text-decoration: none;
+.categorie {
+  text-align: center;
 }
 
-.flex-container P{
-    margin: 0;
-    padding-bottom: 3px;
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  padding-left: 10%;
+}
+
+b {
+  color: black;
+}
+
+a {
+  text-decoration: none;
+  color: grey;
+}
+
+.flex-container p {
+  margin: 0;
+  padding-bottom: 4%;
+  font-size: large;
 }
 
 /**MAIN CONTENT**/
 .grid-container {
   display: grid;
+  background-color: #efefef;
   grid-template-columns: auto 85%;
   grid-template-areas:
     "header header"
@@ -58,13 +84,18 @@ a{
 .grid-item {
   display: flex;
   flex-direction: column;
-  background-color: aqua;
-  border: solid 1px black;
+  background-color: #112b3c;
   place-items: center;
+  color: #efefef;
 }
 
 .grid-item img {
   max-width: 100%;
+  padding-bottom: 2%;
+}
+
+h2 {
+  margin-bottom: 2%;
 }
 
 .grid-container1 {
@@ -75,44 +106,53 @@ a{
 }
 
 .box {
-  border: solid 1px black;
   margin: 2px;
 }
 
 button {
-  display: inline-block;
   padding: 8px;
+  margin-top: 2%;
   color: white;
-  background-color: #000;
+  background-color: #f66b0e;
   text-align: center;
   cursor: pointer;
   width: 100%;
   font-size: 18px;
 }
 
-.btn{
-    width: 100%;
-    margin: 0;
+.btn {
+  width: 100%;
+  margin: 0;
 }
 
-button:hover, a:hover {
-    opacity: 0.7;
-  }
-
-  /**FOOTER**/
-.social{
-    text-align: center;
-    padding: 1%;
+button:hover,
+a:hover {
+  opacity: 0.7;
 }
 
-  .social img{
-      width: 3%;
-  }
-
-.footer-container{
-    text-align: center;
+/**FOOTER**/
+.footer {
+  background-color: #efefef;
 }
 
-  .footer-container a{
-      padding: 1%;
-  }
+.social {
+  text-align: center;
+  padding: 1%;
+}
+
+.social img {
+  width: 3%;
+  padding: 0.5%;
+}
+
+.footer-container {
+  text-align: center;
+}
+
+.footer-container a {
+  padding: 1%;
+}
+
+.footer-container p {
+  margin-top: 1%;
+}
